@@ -64,7 +64,7 @@
     <script>
         // 提示框输入名字
         const username = prompt("请输入你的名字:");
-        const socket = new WebSocket('ws://localhost:8765');
+        const socket = new WebSocket('ws://0.0.0.0:8765');
 
         socket.onopen = function(event) {
             console.log('WebSocket connection opened');
