@@ -33,7 +33,7 @@
         let socket;
 
         function connectToWebSocket() {
-            socket = new WebSocket('ws://localhost:8765');
+            socket = new WebSocket('wss://dragonking-bin.github.io/websocket');
 
             socket.onopen = () => {
                 console.log('WebSocket connection opened');
